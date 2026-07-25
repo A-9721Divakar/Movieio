@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.7975,
+  "precision": 0.8151041666666666,
+  "recall": 0.9690402476780186,
+  "f1": 0.8854314002828854,
+  "confusion_matrix": [
+    [
+      6,
+      71
+    ],
+    [
+      10,
+      313
+    ]
+  ],
+  "feature_importance": {
+    "popularity": 0.23855383850860515,
+    "budget": 0.2226477879432412,
+    "vote_average": 0.22053061130114035,
+    "runtime": 0.2051275681136148,
+    "genre_Drama": 0.013391736887947791,
+    "genre_Horror": 0.012760761376574998,
+    "genre_Animation": 0.011923154013816622,
+    "genre_Action": 0.011791301141788108,
+    "genre_Thriller": 0.011691226109900284,
+    "genre_Adventure": 0.011425732327635881,
+    "genre_Romance": 0.010891599559830023,
+    "genre_Science Fiction": 0.010160009681683756,
+    "genre_Comedy": 0.009992939107664094,
+    "genre_Unknown": 0.009111733926556972
+  },
+  "feature_columns": [
+    "budget",
+    "popularity",
+    "runtime",
+    "vote_average",
+    "genre_Action",
+    "genre_Adventure",
+    "genre_Animation",
+    "genre_Comedy",
+    "genre_Drama",
+    "genre_Horror",
+    "genre_Romance",
+    "genre_Science Fiction",
+    "genre_Thriller",
+    "genre_Unknown"
+  ],
+  "genre_options": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Drama",
+    "Horror",
+    "Romance",
+    "Science Fiction",
+    "Thriller",
+    "Unknown"
+  ]
+}
